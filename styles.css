@@ -1,0 +1,133 @@
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+/* Navigation */
+nav {
+  background-color: #004a99;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+nav .logo {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  cursor: pointer;
+  color: white;
+}
+
+nav button.demo,
+nav button.signin {
+  background-color: #2ca046;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+nav button.signin {
+  background-color: white;
+  color: #004a99;
+}
+
+/* Section Styles */
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+.intro, .benefits {
+  background-color: #e6f3ff;
+}
+
+button.demo {
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #2ca046;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  background-color: #ffffff;
+}
+
+.product {
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product a {
+  color: #004a99;
+  text-decoration: none;
+}
+
+/* Video Section */
+.video-demo {
+  background-color: #e6f3ff;
+}
+
+/* Contact */
+.contact {
+  background-color: #004a99;
+  color: white;
+}
+
+.contact a {
+  color: #2ca046;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: underline;
+}
+
+.newsletter {
+  margin-top: 1rem;
+}
+
+.newsletter input {
+  padding: 0.5rem;
+  width: 250px;
+  margin-right: 0.5rem;
+}
+
+.newsletter button {
+  padding: 0.5rem 1rem;
+  background-color: #2ca046;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
